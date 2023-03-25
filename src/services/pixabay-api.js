@@ -10,4 +10,4 @@ export const fetchImg = (query, page, perPage) => {
     }
     return Promise.reject(new Error('Oops! Nothing found'));
   });
-};
+}; 
