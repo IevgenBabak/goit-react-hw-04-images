@@ -15,7 +15,7 @@ const Status = {
   PENDING: 'pending',
   RESOLVED: 'resolved',
   REJECTED: 'rejected',
-};
+}; 
 
 const App = () => {
   const [status, setStatus] = useState(Status.IDLE);
